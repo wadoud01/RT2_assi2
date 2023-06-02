@@ -4,7 +4,7 @@ This repository contains the code and documentation for Research Track 2 - Assig
 
 ## Description
 
-The `action_usr.py` node allows the user to set target positions for the robot. The user is prompted to enter two integers to specify the x and y coordinates of the target position. Additionally, if the user enters 'c', the target position is canceled.
+The node allows the user to set target positions for the robot. The user is prompted to enter two integers to specify the x and y coordinates of the target position. Additionally, if the user enters 'c', the target position is canceled.
 
 To facilitate the interaction with the node, two slide widgets have been created to set the x and y target positions. Two buttons have also been provided: the first button sends and sets the target positions based on the values selected using the sliders, while the second button cancels the target goal.
 
