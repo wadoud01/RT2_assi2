@@ -1,16 +1,14 @@
 # Research Track 2 - Assignment 2
 
-This repository contains the code and documentation for Research Track 2 - Assignment 2. The assignment focuses on the implementation of the `action_usr.py` node, which interacts with the user to set target positions and visualize the robot's movements.
+This repository contains the code and documentation for Research Track 2 - Assignment 2. The assignment focuses on the implementation of the node, which interacts with the user to set target positions and visualize the robot's movements.
 
 ## Description
 
 The `action_usr.py` node allows the user to set target positions for the robot. The user is prompted to enter two integers to specify the x and y coordinates of the target position. Additionally, if the user enters 'c', the target position is canceled.
 
-To facilitate the interaction with the `action_usr.py` node, two slide widgets have been created to set the x and y target positions. Two buttons have also been provided: the first button sends and sets the target positions based on the values selected using the sliders, while the second button cancels the target goal.
+To facilitate the interaction with the node, two slide widgets have been created to set the x and y target positions. Two buttons have also been provided: the first button sends and sets the target positions based on the values selected using the sliders, while the second button cancels the target goal.
 
 The robot's movement is visualized using a plot graph, which subscribes to the `/odom` topic. As the robot moves towards the target position, its movements are displayed on this graph in real-time.
-
-To determine the nearest obstacle to the robot, a button has been implemented. When the robot is in motion, clicking the nearest obstacle button provides information about the location of the nearest obstacle.
 
 The assignment also includes the creation of another graph to track the reached and canceled goals. Each time the robot successfully reaches a target position, the count is incremented and displayed on the graph. Similarly, when the goal is canceled, the canceled goal count increases. The total section of the graph provides the overall count of reached and canceled target positions.
 
@@ -31,14 +29,12 @@ shell
 Copy code
 jupyter notebook --allow-root --ip 0.0.0.0
 Click on the assignment_2.ipynb notebook to open it.
-
 In separate terminals, run the following commands to launch the required ROS nodes:
-
 shell
 Copy code
 roscore
 roslaunch assignment_2_2022 assignment_2.launch
-Inside the Jupyter Notebook, use the provided widgets and buttons to set the target x and y positions. Observe the robot's movement on the graph and in Gazebo. Click the "Nearest Obstacle" button to identify the location of the nearest obstacle. The "Plot" button allows you to visualize the number of reached and canceled targets.
+Inside the Jupyter Notebook, use the provided widgets and buttons to set the target x and y positions. The "Plot" button allows you to visualize the number of reached and canceled targets.
 
 ## Contributing
 Contributions to this assignment are welcome! If you have any suggestions, improvements, or find any issues, please feel free to submit a pull request.
