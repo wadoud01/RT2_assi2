@@ -22,7 +22,7 @@ To run the assignment, follow the steps below to install the necessary dependenc
    ```shell
    pip3 install jupyter bqplot pyyaml ipywidgets
    
-##How to Run
+## How to Run
 To run the assignment, follow these steps:
 
 Open the Jupyter Notebook by executing the following command in the terminal:
@@ -40,7 +40,7 @@ roscore
 roslaunch assignment_2_2022 assignment_2.launch
 Inside the Jupyter Notebook, use the provided widgets and buttons to set the target x and y positions. Observe the robot's movement on the graph and in Gazebo. Click the "Nearest Obstacle" button to identify the location of the nearest obstacle. The "Plot" button allows you to visualize the number of reached and canceled targets.
 
-##Contributing
+## Contributing
 Contributions to this assignment are welcome! If you have any suggestions, improvements, or find any issues, please feel free to submit a pull request.
 
 
