@@ -36,8 +36,3 @@ roscore
 roslaunch assignment_2_2022 assignment_2.launch
 Inside the Jupyter Notebook, use the provided widgets and buttons to set the target x and y positions. The "Plot" button allows you to visualize the number of reached and canceled targets.
 
-## Contributing
-Contributions to this assignment are welcome! If you have any suggestions, improvements, or find any issues, please feel free to submit a pull request.
-
-
-Feel free to modify and customize this code block according to your specifi
